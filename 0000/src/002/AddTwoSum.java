@@ -1,7 +1,12 @@
 
-public class Solution {
+/**
+ * 001 two sum
+ * [quesion](../../../0001-Two-Sum/Article/0001-Two-Sum.md)  
+ */
+public class AddTwoSum {
     public static void main(String[] args) {
-        ListNode n1 = new ListNode(2, new ListNode(4, new ListNode(3, null)));
+        // 个->十->百->千 ...
+        ListNode n1 = new ListNode(2, new ListNode(4, new ListNode(4, null)));
         ListNode n2 = new ListNode(5, new ListNode(6, new ListNode(4, null)));
         ListNode res = addTwoNumbers(n1, n2); 
         printLog(res);
