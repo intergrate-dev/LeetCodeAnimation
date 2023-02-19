@@ -1,26 +1,16 @@
 public class ListNode {
-    private int val;
-    private ListNode next;
+    int val;
+    ListNode next;
+
+    public ListNode() {}
 
     public ListNode(int x) {
-        val = x; 
+        this.val = x; 
     }
     
-    public int getVal() {
-        return val;
-    }
-
-    public ListNode getNext() {
-        return next;
-    }
-
-    public void setNext(ListNode n) {
-        next = n;
-    }
-
-    public ListNode(int x, ListNode n) { 
-        val = x; 
-        next = n;
+    public ListNode(int val, ListNode next) {
+        this.val = val;
+        this.next = next;
     }
 
 }
